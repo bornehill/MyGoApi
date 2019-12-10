@@ -2,7 +2,8 @@ package main
 
 import (
     "log"
-    "net/http"
+	"net/http"
+	"github.com/gorilla/mux"
 )
 
 type server struct{}
@@ -29,6 +30,7 @@ func api(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    http.HandleFunc("/", api)
-    log.Fatal(http.ListenAndServe(":5021", nil))
+	r := mux.NewRouter()
+    r.HandleFunc("/", api)
+    log.Fatal(http.ListenAndServe(":5021", r))
 }
