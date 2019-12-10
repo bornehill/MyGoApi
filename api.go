@@ -7,7 +7,7 @@ import (
 
 type server struct{}
 
-func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+func api(w http.ResponseWriter, r *http.Request) {
     w.Header().Set("Content-Type", "application/json")
     switch r.Method {
     case "GET":
@@ -29,7 +29,6 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    s := &server{}
-    http.Handle("/", s)
-    log.Fatal(http.ListenAndServe(":8080", nil))
+    http.HandleFunc("/", api)
+    log.Fatal(http.ListenAndServe(":5021", nil))
 }
