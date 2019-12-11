@@ -1,8 +1,8 @@
-1,1,0,Principal Menu,My Carrer,Information about you and your carrier path,mycarrer.png,,0
-2,1,0,Principal Menu,ParkingLot,Information about your parking or way to work,parkingLot.png,,0
-3,1,0,Principal Menu,Benefits,Your benefits in UnoSquare,benefits.png,,0
-4,1,0,Principal Menu,Lunch Core,All about your lunch (request, receipt, cancel),lunchCore.jpg,,0
-5,1,0,Principal Menu,My Events,What events you going to attend?,events.png,,0
+1,1,0,Principal Menu,My Carrer,Information about you and your carrier path,Icon.Person,,0
+2,1,0,Principal Menu,ParkingLot,Information about your parking or way to work,Icon.Cars,,0
+3,1,0,Principal Menu,Benefits,Your benefits in UnoSquare,Icon.ListScrollWatchlist,,0
+4,1,0,Principal Menu,Lunch Core,All about your lunch (request receipt cancel),Icon.ForkKnife,,0
+5,1,0,Principal Menu,My Events,What events you going to attend?,Icon.Bell,,0
 6,2,1,Carrer,Profile,All about you,profile.png,,1
 7,2,1,Carrer,Annual Review,Track your annual review,annualReview.png,,1
 8,2,1,Carrer,Uno mailbox,What you want to tell us?,mailbox.png,,1
