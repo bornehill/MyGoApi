@@ -1,0 +1,21 @@
+1,1,0,Principal Menu,My Carrer,Information about you and your carrier path,mycarrer.png,,0
+2,1,0,Principal Menu,ParkingLot,Information about your parking or way to work,parkingLot.png,,0
+3,1,0,Principal Menu,Benefits,Your benefits in UnoSquare,benefits.png,,0
+4,1,0,Principal Menu,Lunch Core,All about your lunch (request, receipt, cancel),lunchCore.jpg,,0
+5,1,0,Principal Menu,My Events,What events you going to attend?,events.png,,0
+6,2,1,Carrer,Profile,All about you,profile.png,,1
+7,2,1,Carrer,Annual Review,Track your annual review,annualReview.png,,1
+8,2,1,Carrer,Uno mailbox,What you want to tell us?,mailbox.png,,1
+9,3,1,Parking,Request,Request a lot,requestParking.jpg,,2
+10,3,1,Parking,Ride,Do you need a ride?,ride.png,,2
+11,3,1,Parking,Temporaly free,Free your lot to a partner,temporalyFree.png,,2
+12,3,1,Parking,Subsidy,Uno give you a hand,subsidy.png,,2
+13,4,1,Benefits,Saving,Request an annual saving,savings.jpg,,3
+14,4,1,Benefits,Healty,Healt places to you,healty.png,,3
+15,4,1,Benefits,Discounts,Save money with our partners,discount.png,,3
+16,5,1,LunchCore,Order,Order your lunch,orderFood.png,,4
+17,5,1,LunchCore,Cancel your order,Cancel your lunch,cancelOrderFood.png,,4
+18,5,1,LunchCore,Receipt,Check your receipt,receipt.png,,4
+19,5,1,LunchCore,Review,Give us your opinion,review.png,,4
+20,6,1,Events,RSVP,Reserv your place,rsvp.jpg,,5
+21,6,1,Events,Pictures,Share & View your moments,pictures.png,,5
