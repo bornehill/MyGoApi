@@ -5,8 +5,7 @@ import (
 	"net/http"
 	"github.com/gorilla/mux"
 	"fmt"
-    "strconv"
-    "github.com/bornehill/mygoapi/datastore"
+    "my-go-api/datastore"
     "time"
 )
 

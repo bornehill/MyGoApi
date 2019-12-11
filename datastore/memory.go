@@ -3,9 +3,8 @@ package datastore
 import (
 	"log"
 	"os"
-	"strings"
 
-	"github.com/bornehill/mygoapi/loader"
+	"my-go-api/loader"
 )
 
 type Menus struct {
@@ -26,7 +25,7 @@ func (b *Menus) GetMenuView(parentId int) *[]*loader.MenuOption {
 	ret := Filter(b.Options, func(v *loader.MenuOption) bool {
 		return v.ParentId == parentId
 	})
-	return &ret
+	return ret
 }
 
 func Filter(vs *[]*loader.MenuOption, f func(*loader.MenuOption) bool) *[]*loader.MenuOption {

@@ -3,16 +3,17 @@ package main
 import (
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"github.com/bornehill/mygoapi/loader"
 	"net/http"
 	"strconv"
+	"fmt"
 )
 
 func getMenuView(w http.ResponseWriter, r *http.Request) {
 	pathParams := mux.Vars(r)
 	w.Header().Set("Content-Type", "application/json")
 	if val, ok := pathParams["parentId"]; ok {
-		data := *menus.GetMenuView(val)
+		parentId, err := strconv.Atoi(val)
+		data := *menus.GetMenuView(parentId)
 		b, err := json.Marshal(data)
 		if err != nil {
 			w.WriteHeader(http.StatusInternalServerError)

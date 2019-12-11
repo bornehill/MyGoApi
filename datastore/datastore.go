@@ -1,6 +1,6 @@
 package datastore
 
-import "github.com/bornehill/mygoapi/loader"
+import "my-go-api/loader"
 
 type MenuData interface {
 	Initialize()
