@@ -1,0 +1,9 @@
+---
+applications:
+- name: menu-api
+  random-route: true
+  memory: 128M
+  env:
+    GOVERSION: go1.13
+    GOPACKAGENAME: mygoapi
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git

@@ -37,5 +37,5 @@ func main() {
 	api.HandleFunc("/", notFound)
     api.HandleFunc("/user/{userID}/comment/{commentID}", params).Methods(http.MethodGet)
     api.HandleFunc("/menu/{parentId}", getMenuView).Methods(http.MethodGet)
-    log.Fatal(http.ListenAndServe(":5021", r))
+    log.Fatal(http.ListenAndServe(":8080", r))
 }
